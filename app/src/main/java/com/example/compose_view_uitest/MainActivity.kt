@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         CoroutineScope(Dispatchers.IO).launch {
             delay(2000)
         }
-            binding.compose.setContent {
+            binding.labelsView.setContent {
                 Composeview_uiTestTheme {
                     // A surface container using the 'background' color from the theme
                     Surface(color = MaterialTheme.colors.background, modifier = Modifier.padding(40.dp

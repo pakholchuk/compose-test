@@ -3,8 +3,13 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <TextureView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/camera_view"/>
+
     <androidx.compose.ui.platform.ComposeView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/compose"/>
+        android:id="@+id/labels_view"/>
 </FrameLayout>
